@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todofy UI components</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/ui.css" />
+</head>
+<body>
+	<div class="container">
+		<h2 style="text-align: center"> TODOFY UI Components </h2>
+		<hr>
+	</div>
+
+	<!-- Notification -->
+	<section class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="todofystyle">
+					Widget
+				</h3>
+				<div class="widget">
+					<div class="header">
+						Widget header
+						<div class="close"></div>
+					</div>
+					<div class="body">
+						<div style="padding: 10px 20px; font-size: 16px">
+							<h4>Body of the widget</h4>
+							Write content of the widget here. Lorem ipsum something something I dont remember.
+						</div>
+					</div>
+					<div class="footer">
+						footer
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="todofystyle">Callouts</h3>
+				<div class="message w orange" style="display: block;">
+                    These are few of your repositories which contain todos, we belive you want to finish them soon!
+                    <a href="javascript: void(0)" class="close"></a>
+                </div>
+
+                <div class="message w green" style="display: block;">
+                    These are few of your repositories which contain todos, we belive you want to finish them soon!
+                    <a href="javascript: void(0)" class="close"></a>
+                </div>
+
+                <div class="message w blue" style="display: block;">
+                    These are few of your repositories which contain todos, we belive you want to finish them soon!
+                    <a href="javascript: void(0)" class="close"></a>
+                </div>
+                <div class="message w cyan"  style="display: block;">
+                    These are few of your repositories which contain todos, we belive you want to finish them soon!
+                    <a href="javascript: void(0)" class="close"></a>
+                </div>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="todofystyle">Context menu</h3>
+                <div style="display: block;margin-top:10px; position: relative">
+                	<div class="contextmenu" style="display: block;">
+	                    <div class="submenu top _ view_todo" data="./r/mebjas/my-playground/master/2164">View todo</div>
+	                    <div class="submenu _">Edit todo</div>
+	                    <div class="dividor"></div>
+	                    <div class="submenu _ next" item="deadline">Deadline</div>
+	                    <div class="submenu _ next" item="reminder">Reminder</div>
+	                    <div class="dividor"></div>
+	                    <div class="submenu small">something else</div>
+	                    <div class="submenu _">Set tomorrow</div>
+	                    <div class="sectionmenu" item="deadline">
+		                    <div class="submenu _ prev">Menu</div>
+		                    <div class="submenu small">Deadline</div>
+	                		<div class="submenu _">Set tomorrow</div>
+	                		<div class="submenu _">Set next week</div>
+		                    <div class="dividor"></div>
+		                    <div class="submenu small">Select from calendar</div>
+	                		<div class="custom" style="min-height: 200px;">
+	                		</div>
+	                	</div>
+	                	<div class="sectionmenu" item="reminder">
+		                    <div class="submenu _ prev">Menu</div>
+		                    <div class="submenu small">Reminder</div>
+	                		<div class="submenu _">Set tomorrow</div>
+	                		<div class="submenu _">Set next week</div>
+		                    <div class="dividor"></div>
+		                    <div class="submenu small">Select from calendar</div>
+	                		<div class="custom" style="min-height: 200px;">
+	                		</div>
+	                	</div>
+	                </div>
+                </div>
+				
+                <div style="display: block;height: 300px"></div>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3 class="todofystyle">Loading blocks</h3>
+				<div class="loadingGreen" style="height: 40px; margin: 10px; padding: 10px; font-weight: bold">
+					<code>loadingGreen</code> applies to any element, gives the loading animation!
+				</div>
+                <div class="data loading"><div class="info"></div></div>
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</section>
+
+	<div class="footer" style="margin-top:200px; text-align: center;padding: 40px">
+		Todofy, all rights reserved
+	</div>
+</body>
+<script src="./js/jquery-1.11.1.js"></script>
+<script src="./js/ui.js"></script>
+</html>
